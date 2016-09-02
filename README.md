@@ -25,6 +25,7 @@ Repository Contents
 * **/Libraries** - Arduino library and example sketches.
 * **/Hardware** - All Eagle design files (.brd, .sch)
 * **/extras** - includes the datasheet
+* **/processing** - Processing library and sketch
 
 Using Processing - Data Visualization Software (New!)
 -----------------------------------------------------
@@ -48,7 +49,7 @@ Using Processing - Data Visualization Software (New!)
 
  a. Download the necessary files & directories or clone to your desktop from GitHub.
 
- b. Unzipping the archive should make a folder by name AFE4400 Oximeter Shield that contains the visualization code.
+ b. Unzipping the archive should make a folder by name Pulse that contains the visualization code.
 
  c. Locate the Processing sketchbook directory on your computer. This should have been created automatically when you installed processing. Depending on your operating system, the path will be as follows:
 
@@ -58,11 +59,11 @@ Using Processing - Data Visualization Software (New!)
 
 **Note:** This directory appears as "Processing" on Windows/Mac, and goes by the name "Sketchbook" on Linux. Create a subdirectory by name "libraries" if one doesn't exist already.
 
- d. From the above mentioned "AFE4400_Oximeter-master" directory Copy/Move the contents of the AFE4400_Oximeter-master/Processing/ces_view_oximeter folder to the Processing sketchbook directory which is also mentioned above (Locate the Processing sketchbook)
+ d. From the above mentioned "AFE4400_Oximeter-master" directory Copy/Move the contents of the Pulse-master/Processing/ces_view_oximeter folder to the Processing sketchbook directory which is also mentioned above (Locate the Processing sketchbook)
 
- e. Finally, copy the G4P directories from AFE4400_Oximeter-master\Processing\libraries and paste them into the libraries directory of your Processing sketchbook.
+ e. Finally, copy the G4P directories from Pulse-master\Processing\libraries and paste them into the libraries directory of your Processing sketchbook.
 
- f. You are all set now to get your first PPG wave form and SpO2 reading visualized from the AFE4400 Oximeter Shield!
+ f. You are all set now to get your first PPG wave form and SpO2 reading visualized from the Pulse!
 
 ### 3. Open Processing & launch the ces_view_oximeter
 
@@ -74,13 +75,13 @@ Using Processing - Data Visualization Software (New!)
 
  d. Once the GUI is running, select the port connect with pulse oximeter shield from the "SELECT PORT" dropdown as shown in the figure below
 
-![Port Selection](https://github.com/Protocentral/AFE4400_Oximeter/blob/master/Processing/Final%20Output/Port-Selection.png)
+![Port Selection](https://github.com/Protocentral/Pulse/blob/master/Processing/Final-Output/Port-Selection.png)
 
  e. Once the port selection is appropriate the START button gets enabled. Click "START" to initiate visualization
 
- f. You should see the PPG ( RED and IR) waves generated with the values obtained from the AFE4400 Oximeter Shield Breakout Board as shown below.
+ f. You should see the PPG ( RED and IR) waves generated with the values obtained from the Pulse as shown below.
 
-![PPG Wave Form in Processing](https://github.com/Protocentral/AFE4400_Oximeter/blob/master/Processing/Final%20Output/PPG-Generated.png)
+![PPG Wave Form in Processing](https://github.com/Protocentral/Pulse/blob/master/Processing/Final-Output/output.png)
 
 
 License Information
