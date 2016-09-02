@@ -1,4 +1,4 @@
-#include "MAX30100.h"
+#include "Protocentral_MAX30100.h"
 #include <Wire.h>
 
 PULSE_MAX30100 pulse;
