@@ -71,7 +71,7 @@ Using Processing - Data Visualization Software (New!)
 
 **Note:** This directory appears as "Processing" on Windows/Mac, and goes by the name "Sketchbook" on Linux. Create a subdirectory by name "libraries" if one doesn't exist already.
 
- d. From the above mentioned "AFE4400_Oximeter-master" directory Copy/Move the contents of the Pulse-master/Processing/ces_view_oximeter folder to the Processing sketchbook directory which is also mentioned above (Locate the Processing sketchbook)
+ d. From the above mentioned "Pulse" directory Copy/Move the contents of the Pulse-master/Processing/ces_view_oximeter folder to the Processing sketchbook directory which is also mentioned above (Locate the Processing sketchbook)
 
  e. Finally, copy the G4P directories from Pulse-master\Processing\libraries and paste them into the libraries directory of your Processing sketchbook.
 
