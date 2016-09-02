@@ -27,6 +27,18 @@ Repository Contents
 * **/extras** - includes the datasheet
 * **/processing** - Processing library and sketch
 
+Wiring the Breakout to your Arduino
+------------------------------------
+Connection with the Arduino board is as follows:
+ 
+|Pulse pin label   | Arduino Connection   |Pin Function      |
+|----------------- |:--------------------:|-----------------:|
+| VCC              | +5V                  |  Supply voltage  |             
+| SCL              | A5                   |  Serial clock    |
+| SDA              | A4                   |  Serial data     |
+| GND              |                      |  gnd             |
+
+
 Using Processing - Data Visualization Software (New!)
 -----------------------------------------------------
  Processing is a data visualization software, in existence since 2001, used by artists and scientists alike. It’s an open source coding framework based on Java. If you are familiar with the Arduino environment, the Processing IDE is similar and you won’t have much of a learning curve to climb!
