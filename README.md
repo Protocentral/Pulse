@@ -1,48 +1,30 @@
-﻿AF4400 Oximeter SHIELD 
+Pulse
 ================================
 
-[![Oximeter](https://www.protocentral.com/3130-tm_thickbox_default/afe4400-pulse-oximeter-shield-kit-for-arduino.jpg)  
-*AFE4400 Pulse Oximeter Shield Kit for Arduino (PC-41234)*](https://www.protocentral.com/biomedical/861-afe4400-pulse-oximeter-shield-kit-for-arduino-642078949425.html)
+[![Oximeter](https://www.protocentral.com/3899-tm_thickbox_default/protocentral-pulse-oximeter-heart-rate-sensor-based-on-max30100.jpg)  
+*ProtoCentral Pulse Oximeter & Heart Rate Sensor based on MAX30100 (PC-6565)*](https://www.protocentral.com/sensors/1022-protocentral-pulse-oximeter-heart-rate-sensor-based-on-max30100.html?search_query=pulse&results=23)
 
-This pulse oximetry shield from ProtoCentral uses the AFE4400 IC to enble your Arduino to measure heart rate as well as SpO2 values.
-Pulse oximetry is an indirect method of measuring the oxygen levels in the blood. The sensor measures the skin's absorbance of red and IR light wavelengths to calculate the oxygen levels. The measurement is done by a probe that clips on to a finger and contains emitters as well as a light sensor.
-Since the amount of blood flowing through any blood vessel varies (pulses) with the rate of blood from the heart, this can also be used for measuring heartrate without the need for connecting any ECG electrodes. 
-Used along with Brainbay, this shield can display the real-time PPG as well as heart-rate values in addition to SpO2.
+The Pulse sensor board from ProtoCentral is our new addition to our open medical hardware line-up. Maxim's MAX30100 is a great new product that combines everything required for a pulse oximeter (including the LEDs and Photodiode !!) on a single tiny chip.
+Measuring 14 mm wide and 40 mm long, this board is easily wearable on the finger to measure the pulse of blood. We even provide a Velcro strap to hold it.
+Important Note: This device is only meant to be used for Research purposes and is NOT to be used as a medical device. This product is not FDA, CE or FCC approved for consumer use. 
 
 Features:
-* TI AFE4400 Single chip pulse pulsoximetry front-end IC
-* Standard Nellcor compatible DB7 connector for probe
+* Integrates a complete pulse oximeter including the optics. No need for a separate probe. 
+* Easy-to-use I2C interface to connect to any host microcontroller
+* Arduino library available
 * Calculates Spo2 values with provided code
 * Real-time display of PPG (Photoplethysmogram)
 
 Includes:
 ----------
-* 1x ProtoCentral Pulse Oximetry shield for Arduino
-* 1x Set of stackable Arduino headers
-* 1x "Nellcor compatible" Pulse oximetry finger probe. 
+* 1x ProtoCentral Pulse Oximeter breakout
+* 1x Welgro strap
 
 Repository Contents
 -------------------
 * **/Libraries** - Arduino library and example sketches.
 * **/Hardware** - All Eagle design files (.brd, .sch)
 * **/extras** - includes the datasheet
-* **/Brainbay** - setup  and configuration file
- 
-Using Brainbay
-----------------
- Brainbay is an open-source application originally designed for bio-feedback applications, it can be easily used for          visualizing the ECG in real-time. Brainbay can be downloaded from the following link:
- https://github.com/Protocentral/AFE4400_Oximeter/tree/master/Brainbay_setup_and_configfiles
- You can use the Windows installer and follow the instructions on the screen to install Brainbay on your computer
- Brainbay now has to be configured to work for our data format and that can be achieved by the using the configuration file   https://github.com/Protocentral/AFE4400_Oximeter/tree/master/Brainbay_setup_and_configfiles 
- In Brainbay, use Design>Load Design to load the configuration file that you downloaded in the previous link.
- Right click the EEG block in brainbay, and select the right COM port and baudrate 9600, press connect and then press play  (F7). In Brainbay, now the following are displayed
-
-![Oximeter](https://www.protocentral.com/img/cms/ads1292r_shield/afe4400brainbayy.png)  
-
- 
-Oxygen Saturation level displayed in the Serial Terminal
-
-![OximeterSerialOutput](https://www.protocentral.com/img/cms/ads1292r_shield/oximeter_serial_1.png)
 
 Using Processing - Data Visualization Software (New!)
 -----------------------------------------------------
