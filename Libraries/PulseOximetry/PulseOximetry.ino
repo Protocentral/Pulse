@@ -1,3 +1,16 @@
+/*Wiring to your Arduino
+ example.ino
+ this example plots the real time ppg
+----------------------
+|Pulse  pin label | Pin Function         |Arduino Connection|
+|-----------------|:--------------------:|-----------------:|
+| VCC             | +5V|                 | Supply voltage   |          
+| SCL             | Serial clock         |  A5              |
+| SDA             | Searial data         |  A4              |
+| GND             |     	         | Gnd              |
+-----------------------------------------------------------------
+*/
+
 #include "Protocentral_MAX30100.h"
 #include <Wire.h>
 
