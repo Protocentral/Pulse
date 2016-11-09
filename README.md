@@ -1,7 +1,7 @@
 Pulse
 ================================
 
-[![Oximeter](https://www.protocentral.com/3927-tm_thickbox_default/protocentral-pulse-oximeter-heart-rate-sensor-based-on-max30100.jpg)  
+[![Oximeter](https://www.protocentral.com/3927-large_default/protocentral-pulse-oximeter-heart-rate-sensor-based-on-max30100.jpg)  
 *ProtoCentral Pulse Oximeter & Heart Rate Sensor based on MAX30100 (PC-6565)*](https://www.protocentral.com/sensors/1030-protocentral-pulse-oximeter-heart-rate-sensor-based-on-max30100.html)
 
 The Pulse sensor board from ProtoCentral is our new addition to our open medical hardware line-up. Maxim's MAX30100 is a great new product that combines everything required for a pulse oximeter (including the LEDs and Photodiode !!) on a single tiny chip.
