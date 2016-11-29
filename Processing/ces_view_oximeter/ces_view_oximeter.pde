@@ -15,7 +15,7 @@ import java.io.BufferedReader;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 
-import signal.library.*;
+//import signal.library.*;
 
 /************** Packet Validation  **********************/
 private static final int CESState_Init = 0;
@@ -122,7 +122,7 @@ BigDecimal avg, rms, a;
 double additionFactor_red, additionFactor_ir;
 float value1, value2;
 float RedAC = 0, RedDC = 0, IrAC = 0, IrDC = 0;
-SignalFilter myFilter;
+//SignalFilter myFilter;
 
 public void setup() {
   size(1000, 700, JAVA2D);
@@ -153,7 +153,7 @@ public void setup() {
   g.Title = "RED";
   g1.GraphColor = color( 0, 255, 0);
   g1.Title = "IR";
-  myFilter = new SignalFilter(this);
+ // myFilter = new SignalFilter(this);
 }
 
 /*********************************************** Draw Function *********************************************************/
