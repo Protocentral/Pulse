@@ -71,17 +71,17 @@ Using Processing - Data Visualization Software (New!)
 
 **Note:** This directory appears as "Processing" on Windows/Mac, and goes by the name "Sketchbook" on Linux. Create a subdirectory by name "libraries" if one doesn't exist already.
 
- d. From the above mentioned "Pulse" directory Copy/Move the contents of the Pulse-master/Processing/ces_view_oximeter folder to the Processing sketchbook directory which is also mentioned above (Locate the Processing sketchbook)
+ d. From the above mentioned "Pulse" directory Copy/Move the contents of the Pulse-master/Processing/openview_oximeter folder to the Processing sketchbook directory which is also mentioned above (Locate the Processing sketchbook)
 
  e. Finally, copy the G4P directories from Pulse-master\Processing\libraries and paste them into the libraries directory of your Processing sketchbook.
 
  f. You are all set now to get your first PPG wave form and SpO2 reading visualized from the Pulse!
 
-### 3. Open Processing & launch the ces_view_oximeter
+### 3. Open Processing & launch the openview_oximeter
 
  a. If Processing IDE was open, close it and reopen to refresh the libraries and sketches. The repositories are not refreshed if the IDE was open while the Sketches and Libraries were being updated.
 
- b. Double-click any of the .pde files in the ces_view_oximeter directory to open all of the pulse oximeter code in the Processing IDE.
+ b. Double-click any of the .pde files in the openview_oximeter directory to open all of the pulse oximeter code in the Processing IDE.
 
  c. If everything done so far was good, clicking the "run" button on the top left corner of the IDE, should run the code! If it does not, make sure you installed your libraries correctly.
 
