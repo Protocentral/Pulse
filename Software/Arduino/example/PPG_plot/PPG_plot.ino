@@ -18,17 +18,18 @@
 MAX30100 sensor;
 uint8_t data_len=8;
 uint8_t DataPacketHeader[15];
-volatile unsigned int IRR,REDD;
+volatile  long IRR,REDD;
 
 void setup() {
   Wire.begin();
   Serial.begin(57600);
   while(!Serial);
   sensor.begin(pw1600, i50, sr100 );
+  sensor.printRegisters();
 }
 
 void loop() {
-    sensor.readSensor();
+   sensor.readSensor();
     IRR=sensor.IR;
     REDD=sensor.RED;
     DataPacketHeader[0] = 0x0A;
@@ -57,6 +58,10 @@ void loop() {
        Serial.write(DataPacketHeader[i]);
      }
 
+//Serial.println(sensor.getPartID());
+/*
+  Serial.println(REDD,HEX);
+  Serial.println(IRR,HEX);*/
   delay(10);
 }
 
